@@ -9,11 +9,12 @@ int main()
 	
 	while(i<=n)
 	{
-		if(i%2 == 0)
-      	{
-		  printf("%d \n ",i);
-		  
-	    }
+        // Check if the number is even or odd using the modulo operator (%)
+        if (i % 2 == 0) {
+            printf("%d is even.\n",i);
+        } else {
+            printf("%d is odd.\n", i);
+        }
 	i++;
 	}
 	
